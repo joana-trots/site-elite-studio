@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+}
+h1 {
+    font-size: 46px;
+    padding-bottom: 34px;
+    border-bottom: 1px solid #454545;
+    margin-bottom: 56px;
+}
+h2 {
+    margin: 40px 0 20px;
+}
+h5 {
+    color: rgb(177, 177, 177);
+    text-transform: uppercase;
+}
+p, li {
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 160%;
+    font-weight: 400;
+}
+p.intro {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 140%;
+}
+p.quote {
+    margin: 30px 50px;
+    padding: 70px 60px;
+    background-color: rgb(243, 243, 243);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-size: 18px;
+}
+@media (max-width: 600px) {
+    p.quote {
+        margin: 30px 20px;
+        padding: 20px 30px;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: .25px;
+    }
+}
+b {
+    font-weight: 600;
+}
+ul li {
+    margin: 8px 0 0 24px;
+    
+}
+ul.small-list li{
+    list-style-type: "- ";
+}
+main, header {
+    max-width: 800px;
+    margin: 15vh auto;
+    padding: 0 20px;
+}
+table img {
+    max-width: 200px;
+}
+table {
+    border-collapse: collapse;
+}
+table td {
+    width: 20%;
+    border: 1px solid rgb(212, 212, 212);
+    border-style: inset;
+    padding: 10px;
+}
+table td:first-child {
+    font-weight: 700;
+}
+table.secondary-table {
+    margin-top: 50px;
+}
+table.secondary-table th {
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(212, 212, 212);
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+    table img {
+        max-width: 100px;
+    }
+}
